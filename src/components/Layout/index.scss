@@ -1,0 +1,15 @@
+.main{
+  &__wrapper{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  ¨
+  &__content{
+    display: flex;
+    justify-content: center;
+    width: 1182px;
+    border: 1px solid red;
+  }
+}

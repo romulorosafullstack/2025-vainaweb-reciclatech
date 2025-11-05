@@ -1,7 +1,10 @@
+import Header from "./components/Header"
+import Layout from "./components/Layout"
+
 export default function App() {
   return (
-    <>
-      <h1>Projeto Limpo</h1>
-    </>
+    <Layout>
+      <Header />
+    </Layout>
   )
 }

@@ -1,0 +1,48 @@
+.header{
+  &__wrapper{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1106px;
+    padding: 1rem 0;
+    border-bottom: 1px solid red;
+  }
+
+  &__logo{
+    width: 24.5rem;
+    height: 4.3rem;
+    background: url('/src/assets/svg/logo.svg') no-repeat;
+    text-indent: -9999px;
+    overflow: hidden;
+  }
+
+  &__navbutton{
+    display: flex;
+    width: 520px;
+  }
+
+  &__nav{
+    &-wrapper{
+      display: flex;
+      width: 330px;
+    }
+
+    &-list{
+      display: flex;
+      width: 100%;
+    }
+
+    &-item{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+  }
+}

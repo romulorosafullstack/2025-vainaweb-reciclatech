@@ -17,8 +17,15 @@ $bg-2:      $white-2;
 $bg-3:      $grey-1;
 $bg-4:      $green-1;
 
-$titles:    $grey-1;
+$titles-1:  $grey-1;
+$titles-2:  $black-2;
+$titles-3:  $white-1;
 $subtitles: $grey-2;
+$texts-1: $grey-2;
+$texts-1: $grey-2;
+
+$links-1: $grey-2;
+$links-2: $grey-3;
 
 $cta-1: $white-1;
 $cta-2: $green-1;
@@ -27,6 +34,9 @@ $cta-3: $blue;
 $border-1: $green-1;
 $border-2: $blue;
 $border-3: $grey-3;
+
+$header-bg: $bg-1;
+$header-links: $links-1;
 
 $card-1-bg: $bg-2;
 $card-1-subtitle: $subtitles;
@@ -40,16 +50,15 @@ $card-2-text: $grey-2;
 $card-2-button: $bg-4;
 $card-2-cta: $cta-1;
 
-
 $card-3-border: $grey-3;
 $card-3-bg: $bg-1;
 $card-3-user: $black-2;
 $card-3-status: $grey-2;
 
-
 $footer-bg: $bg-3;
 $footer-title: $white-1;
 $footer-texts: $grey-3;
+$footer-links: $links-2;
 
 $copyright-bg: $bg-3;
 $copyright-texts: $grey-3;

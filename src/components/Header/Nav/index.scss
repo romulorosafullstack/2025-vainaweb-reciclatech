@@ -1,0 +1,13 @@
+.nav{
+  &__list{
+    display: flex;
+  }
+
+  &__item{
+    display: flex;
+  }
+
+  &__link{
+    font-size: 1.6rem;
+  }
+}

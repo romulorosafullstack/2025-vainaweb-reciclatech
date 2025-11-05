@@ -1,3 +1,73 @@
+
+$black-1: #000000;
+$black-2: #09090B;
+$blue:    #2563EB;
+$green-1: #16A34A;
+$green-2: #21C05C;
+$grey-1:  #1F2937;
+$grey-2:  #4B5563;
+$grey-3:  #9CA3AF;
+$grey-4:  #6B7280;
+$white-1: #FFFFFF;
+$white-2: #F0FDF4;
+$white-3: #F3F5F8;
+
+$bg-1:      $white-1;
+$bg-2:      $white-2;
+$bg-3:      $grey-1;
+$bg-4:      $green-1;
+
+$titles:    $grey-1;
+$subtitles: $grey-2;
+
+$cta-1: $white-1;
+$cta-2: $green-1;
+$cta-3: $blue;
+
+$border-1: $green-1;
+$border-2: $blue;
+$border-3: $grey-3;
+
+$card-1-bg: $bg-2;
+$card-1-subtitle: $subtitles;
+$card-1-item-title: $black-2;
+$card-1-item-subtitle: $subtitles;
+
+$card-2-border: $border-1;
+$card-2-bg: $bg-2;
+$card-2-title: $black-2;
+$card-2-text: $grey-2;
+$card-2-button: $bg-4;
+$card-2-cta: $cta-1;
+
+
+$card-3-border: $grey-3;
+$card-3-bg: $bg-1;
+$card-3-user: $black-2;
+$card-3-status: $grey-2;
+
+
+$footer-bg: $bg-3;
+$footer-title: $white-1;
+$footer-texts: $grey-3;
+
+$copyright-bg: $bg-3;
+$copyright-texts: $grey-3;
+
+$button-1-bg: $border-1;
+$button-1-bg-hover: $green-2;
+$button-1-border: $border-1;
+$button-1-cta: $cta-1;
+
+$button-2-bg: $bg-2;
+$button-2-border: $border-1;
+$button-2-cta: $cta-2;
+
+$button-3-bg: $bg-1;
+$button-3-border: $border-2;
+$button-3-cta: $cta-3;
+
+
 html{
   font-size: 62.5%;
 }
@@ -23,6 +93,10 @@ img, picture, video, canvas, svg {
 
 input, button, textarea, select {
   font: inherit;
+}
+
+a, button{
+  cursor: pointer
 }
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -62,3 +136,47 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+h1,  h2{
+  font-weight: 700;
+  color: $titles;
+}
+
+h3, h4, h5, p{
+  font-weight: 400;
+  color: $subtitles;
+}
+
+h1, h2, p{
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+h3, h4, h5{
+  font-family: 'Inter', 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+h1{
+  font-size: 2.5rem; 
+}
+
+h2{
+  font-size: 2.5rem; 
+}
+
+p{
+  font-size: 1.6rem; 
+}
+
+h3{
+  font-size: 2.5rem; 
+}
+
+h4{
+  font-size: 2rem; 
+}
+
+h5{
+  font-size: 1.5rem; 
+}
+
+

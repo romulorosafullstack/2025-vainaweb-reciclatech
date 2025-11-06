@@ -1,0 +1,66 @@
+$black-1: #000000;
+$black-2: #09090B;
+$blue:    #2563EB;
+$green-1: #16A34A;
+$green-2: #21C05C;
+$grey-1:  #1F2937;
+$grey-2:  #4B5563;
+$grey-3:  #9CA3AF;
+$grey-4:  #6B7280;
+$white-1: #FFFFFF;
+$white-2: #F0FDF4;
+$white-3: #F3F5F8;
+
+$c-bg-1:      $white-1;
+$c-bg-2:      $white-2;
+$c-bg-3:      $grey-1;
+$c-bg-4:      $green-1;
+$c-bg-5:      $green-2;
+
+$c-titles-1:  $grey-1;
+$c-titles-2:  $black-2;
+$c-titles-3:  $white-1;
+$c-subtitles: $grey-2;
+$c-texts-1: $grey-2;
+
+$c-links-1: $grey-2;
+$c-links-2: $grey-3;
+
+$c-cta-1: $white-1;
+$c-cta-2: $green-1;
+$c-cta-3: $blue;
+
+$border-1: 1px solid $green-1;
+$border-2: 1px solid $blue;
+$border-3: 1px solid $grey-3;
+
+$header-bg: $c-bg-1;
+$header-links: $c-links-1;
+
+$card-1-bg: $c-bg-2;
+$card-1-subtitle: $subtitles;
+$card-1-item-title: $c-titles-2;
+$card-1-item-subtitle: $subtitles;
+
+$card-2-bg: $c-bg-2;
+$card-2-border: $border-1;
+$card-2-title: $c-titles-2;
+$card-2-text: $c-texts-1;
+$card-2-cta: $c-cta-1;
+
+$card-3-bg: $c-bg-1;
+$card-3-border: $border-3;
+$card-3-user: $c-titles-2;
+$card-3-status: $c-texts-1;
+
+$footer-bg: $c-bg-3;
+$footer-title: $c-titles-3;
+$footer-texts: $grey-3;
+$footer-links: $links-2;
+
+$copyright-bg: $c-bg-3;
+
+$button-1-bg: $c-bg-4;
+$button-1-bg-hover: $c-bg-5;
+$button-2-bg: $c-bg-2;
+$button-3-bg: $c-bg-1;

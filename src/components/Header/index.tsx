@@ -1,6 +1,6 @@
 import "./index.scss"
 import Nav from "./Nav"
-import Button from "../Button"
+import { Button } from "../Button"
 
 export default function Header() {
   return (
@@ -11,7 +11,7 @@ export default function Header() {
           <Nav />
           <Button
             cta="Começar Agora"
-            className="button-1"
+            className="button--1"
             url="https://github.com/romulorosafullstack/2025-vainaweb-reciclatech"
           />
         </div>

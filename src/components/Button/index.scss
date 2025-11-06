@@ -1,0 +1,33 @@
+@use "../../styles/variables";
+
+.button{
+  width: 18.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &--1{
+    background-color: variables.$button-1-bg;
+    color: variables.$button-1-cta;
+    border: variables.$button-1-border;
+    border-radius: 0.6rem;
+    height: 6rem;
+    font-size: 1.6rem;
+
+    &:hover{
+      background-color: variables.$button-1-bg-hover;
+    }
+  }
+
+  &--2{
+    background-color: variables.$button-2-bg;
+    color: variables.$button-2-cta;
+    border: variables.$button-2-border;
+  }
+
+  &--3{
+    background-color: variables.$button-3-bg;
+    color: variables.$button-3-cta;
+    border: variables.$button-3-border;
+  }
+}

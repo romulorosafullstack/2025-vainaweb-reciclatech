@@ -1,17 +1,17 @@
 import "./index.scss"
 
 type ButtonProps = {
-  className: string
+  className?: string
   cta: string;
   url: string;
 }
 
-export default function Button(props: ButtonProps) {
+export function Button({ className = "", cta, url }: ButtonProps) {
   return (
     <button
-      className={props.cta}
-      onClick={()=>alert(props.url)}>
-      <span>{props.cta}</span>
+      className={`button ${className}`.trim()}
+      onClick={()=>alert(url)}>
+      <span>{cta}</span>
     </button>
-  )
+  )     
 }

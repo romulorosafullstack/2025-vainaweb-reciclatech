@@ -1,3 +1,4 @@
+@use "../../styles/colors";
 @use "../../styles/variables";
 
 .header{
@@ -14,7 +15,7 @@
     align-items: center;
     width: 1106px;
     padding: 1rem 0;
-    border-bottom: 1px solid variables.$grey-3;
+    border-bottom: colors.$c-border-1;
   }
 
   &__logo{

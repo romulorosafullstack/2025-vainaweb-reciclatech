@@ -1,3 +1,4 @@
+@use "../../styles/colors";
 @use "../../styles/variables";
 
 .button{
@@ -8,27 +9,27 @@
   padding: 3rem 1rem;
 
   &--1{
-    background-color: variables.$button-1-bg;
-    color: variables.$button-1-cta;
-    border: variables.$button-1-border;
+    background-color: colors.$c-button-1-bg;
+    color: colors.$c-button-1-cta;
+    border: colors.$c-button-1-border;
     height: 6rem;
     font-size: variables.$f-size-1;
     width: variables.$button-1-width;
 
     &:hover{
-      background-color: variables.$button-1-bg-hover;
+      background-color: colors.$c-button-1-bg-hover;
     }
   }
 
   &--2{
-    background-color: variables.$button-2-bg;
-    color: variables.$button-2-cta;
-    border: variables.$button-2-border;
+    background-color: colors.$c-button-2-bg;
+    color: colors.$c-button-2-cta;
+    border: colors.$c-button-2-border;
   }
 
   &--3{
-    background-color: variables.$button-3-bg;
-    color: variables.$button-3-cta;
-    border: variables.$button-3-border;
+    background-color: colors.$c-button-3-bg;
+    color: colors.$c-button-3-cta;
+    border: colors.$c-button-3-border;
   }
 }

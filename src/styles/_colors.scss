@@ -30,37 +30,47 @@ $c-cta-1: $white-1;
 $c-cta-2: $green-1;
 $c-cta-3: $blue;
 
-$border-1: 1px solid $green-1;
-$border-2: 1px solid $blue;
-$border-3: 1px solid $grey-3;
+$c-border-1: 1px solid $green-1;
+$c-border-2: 1px solid $blue;
+$c-border-3: 1px solid $grey-3;
 
-$header-bg: $c-bg-1;
-$header-links: $c-links-1;
+$c-header-bg: $c-bg-1;
+$c-header-links: $c-links-1;
 
-$card-1-bg: $c-bg-2;
-$card-1-subtitle: $subtitles;
-$card-1-item-title: $c-titles-2;
-$card-1-item-subtitle: $subtitles;
+$c-card-1-bg: $c-bg-2;
+$c-card-1-subtitle: $c-subtitles;
+$c-card-1-item-title: $c-titles-2;
+$c-card-1-item-subtitle: $c-subtitles;
 
 $card-2-bg: $c-bg-2;
-$card-2-border: $border-1;
+$card-2-border: $c-border-1;
 $card-2-title: $c-titles-2;
 $card-2-text: $c-texts-1;
 $card-2-cta: $c-cta-1;
 
-$card-3-bg: $c-bg-1;
-$card-3-border: $border-3;
-$card-3-user: $c-titles-2;
-$card-3-status: $c-texts-1;
+$c-card-3-bg: $c-bg-1;
+$c-card-3-border: $c-border-3;
+$c-card-3-user: $c-titles-2;
+$c-card-3-status: $c-texts-1;
 
-$footer-bg: $c-bg-3;
-$footer-title: $c-titles-3;
-$footer-texts: $grey-3;
-$footer-links: $links-2;
+$c-footer-bg: $c-bg-3;
+$c-footer-title: $c-titles-3;
+$c-footer-texts: $grey-3;
+$c-footer-links: $c-links-2;
 
-$copyright-bg: $c-bg-3;
+$c-copyright-bg: $c-bg-3;
+$c-copyright-texts: $grey-3;
 
-$button-1-bg: $c-bg-4;
-$button-1-bg-hover: $c-bg-5;
-$button-2-bg: $c-bg-2;
-$button-3-bg: $c-bg-1;
+$c-button-1-bg: $c-bg-4;
+$c-button-1-bg-hover: $c-bg-5;
+$c-button-1-cta: $c-cta-1;
+$c-button-1-border: $c-border-1;
+
+$c-button-2-bg: $c-bg-2;
+$c-button-2-cta: $c-cta-2;
+$c-button-2-border: $c-border-2;
+
+$c-button-3-bg: $c-bg-1;
+$c-button-3-cta: $c-cta-3;
+$c-button-3-border: $c-border-3;
+

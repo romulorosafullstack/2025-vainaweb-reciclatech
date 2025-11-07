@@ -1,20 +1,10 @@
-@use "./colors";
+@use 'colors';
 
-$family-1: 'Poppins', Arial, Helvetica, sans-serif;
-$family-2: 'Inter', 'Poppins', Arial, Helvetica, sans-serif;
+$f-family-1: 'Poppins', Arial, Helvetica, sans-serif;
+$f-family-2: 'Inter', 'Poppins', Arial, Helvetica, sans-serif;
 
 $f-size-1: 1.6rem;
 $f-size-2: 1.4rem;
 
-$copyright-texts: $grey-3;
-
-$button-1-border: 1px solid $border-1;
-$button-1-cta: $c-cta-1;
 $button-1-size: $f-size-1;
 $button-1-width: 18.9rem;
-
-$button-2-border: 1px solid $border-1;
-$button-2-cta: $c-cta-2;
-
-$button-3-border: 1px solid $border-2;
-$button-3-cta: $c-cta-3;

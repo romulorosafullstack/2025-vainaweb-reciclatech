@@ -1,4 +1,6 @@
+@use '../../../styles/colors';
 @use '../../../styles/variables';
+
 .nav{
   &__list{
     display: flex;
@@ -10,6 +12,6 @@
 
   &__link{
     font-size: 1.6rem;
-    color: variables.$links-1;
+    color: colors.$c-links-1;
   }
 }

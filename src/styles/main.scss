@@ -1,3 +1,4 @@
+@use 'colors';
 @use 'variables';
 
 html{
@@ -70,25 +71,25 @@ table {
 
 
 body{
-  font-family: variables.$family-1;
+  font-family: variables.$f-family-1;
 }
 
 h1, h2{
   font-weight: 700;
-  color: variables.$titles-1;
+  color: colors.$c-titles-1;
 }
 
 h3, h4, h5, p{
   font-weight: 400;
-  color: variables.$subtitles;
+  color: colors.$c-subtitles;
 }
 
 h1, h2, p{
-  font-family: variables.$family-1;
+  font-family: variables.$f-family-1;
 }
 
 h3, h4, h5{
-  font-family: variables.$family-2;
+  font-family: variables.$f-family-2;
 }
 
 h1{

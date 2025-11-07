@@ -6,7 +6,6 @@
   justify-content: center;
   align-items: center;
   border-radius: 0.6rem;
-  padding: 3rem 1rem;
 
   &--1{
     background-color: colors.$c-button-1-bg;
@@ -15,6 +14,7 @@
     height: 6rem;
     font-size: variables.$f-size-1;
     width: variables.$button-1-width;
+    transition: background-color .7s;
 
     &:hover{
       background-color: colors.$c-button-1-bg-hover;

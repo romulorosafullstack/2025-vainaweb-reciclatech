@@ -15,7 +15,7 @@
     align-items: center;
     width: 1106px;
     padding: 1rem 0;
-    border-bottom: colors.$c-border-1;
+    border-bottom: colors.$c-border-3;
   }
 
   &__logo{
@@ -28,6 +28,7 @@
 
   &__navbutton{
     display: flex;
+    gap: 2rem;
   }
 
   &__nav{
